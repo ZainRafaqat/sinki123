@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fredericka+the+Great&family=Rakkas&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Fredericka the Great", serif;*/
+   
+}
+
+body>img {
+    position: absolute;
+    /* margin-top: -7.4vw; */
+    width: 100%;
+}
+/* body>img {
+    height: 57.55vw;
+} */
+header {
+    height: 7.4vw;
+    display: flex;
+    width: 100%;
+    position: relative;
+    z-index: 1100;
+    box-sizing: border-box;
+}
+
+header>a>img {
+    box-sizing: border-box;
+    height: 90%;
+    border: 1px groove rgb(0, 0, 0);
+    border-radius: 100%;
+    display: inline-block;
+}
+
+header>a>h1 {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Rakkas", serif;
+    font-size: 3vw;
+    letter-spacing: 0.3vw;
+    color: aliceblue;
+    text-shadow: -6vw 2vw 0.5vw #564d4d;
+    text-decoration: underline;
+    /* color: auto; */
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 1vw 0 0 23vw;
+    /* height: 14vw; */
+    /* margin: auto auto; */
+    /* display: inline-block; */
+    text-align: center;
+
+}
+
+.aboutcontent {
+    margin-top: -7.4vw;
+    position: relative;
+    z-index: 200;
+    height: 57.55vw;
+    width: 100%;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.418));
+}
+
+div.aboutcontent>h2 {
+    position: relative;
+    top: 13vw;
+    left: 43vw;
+    font-size: 2.5vw;
+    font-family: "Rakkas", serif;
+    width: 40%;
+    letter-spacing: 2px;
+    color: aliceblue;
+    text-decoration: 2px underline black;
+
+}
+
+body>div.aboutcontent>img {
+    position: relative;
+    top: 12vw;
+    left: 4vw;
+    height: 13vw;
+    width: 10vw;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 7px;
+}
+
+div.aboutcontent>div.detail {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 4vw;
+    top: 18vw;
+    width: 20vw;
+    color: aliceblue;
+    font-size: 1vw;
+    gap: 1vw;
+}
+
+div.aboutcontent>h3 {
+    position: absolute;
+    top: 19vw;
+    left: 21vw;
+    font-size: 2vw;
+    width: 40%;
+    color: aliceblue;
+    display: none;
+}
+
+div.aboutcontent>p {
+    width: 79%;
+    font-size: 1.2vw;
+    position: relative;
+    left: 16vw;
+    color: aliceblue;
+    text-align: justify;
+}
+
+body>div.aboutcontent>span.genre {
+    background: black;
+    color: aliceblue;
+    font-size: 1.6vw;
+    font-weight: bolder;
+    border-radius: 6px;
+    position: relative;
+    top: 7vw;
+    left: 34.5vw;
+}
+
+div.aboutcontent>p.cast {
+    width: 60%;
+    font-size: 1.2vw;
+    position: relative;
+    top: 10vw;
+    left: 21vw;
+    color: rgb(241, 0, 40);
+}
+
+div.contact {
+    height: 10vw;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(1, 1, 1), rgb(0, 0, 0));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.contact>a>img {
+
+    background: transparent;
+    height: 5vw;
+}
+
+div.ads {
+    /* width: 100%; */
+    width: auto;
+    /* height: 900px; */
+    height: auto;
+    max-height: 14vw;
+    background: rgb(0, 0, 0);
+}
+
+main {
+    position: relative;
+    z-index: 200;
+    height: 105vw;
+    width: 100%;
+    background: linear-gradient(to top, #eee4, rgb(0, 0, 0));
+}
+
+body>img.bgmain {
+    position: absolute;
+    height: 105vw;
+    width: 100%;
+
+}
+
+main>div.videocontaner {
+    width: 75vw;
+    height: 50vw;
+    position: relative;
+    left: 11%;
+    display: none;
+}
+
+div.videocontaner>iframe {
+    position: absolute;
+    top: 5vw;
+    width: 75vw;
+    height: 50vw;
+}
+
+main>div.optionad {
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 10vw;
+}
+
+main>div.optionad>button.bos {
+    width: 80vw;
+    height: 2.5vw;
+    min-height: 24px;
+    position: relative;
+    top: 8vw;
+    left: 8.5%;
+    background: linear-gradient(to top left, #f7030d, black);
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+main>div.optionad>button.bos:hover {
+    width: 80vw;
+    height: 2.5vw;
+    min-height: 22px;
+    position: relative;
+    top: 8vw;
+    left: 8.5%;
+    background: linear-gradient(to top right, black, #f7030d);
+    cursor: pointer;
+}
+
+main>div.optionad>div.seasons {
+    margin: 13vw 14vw 3vw 14vw;
+    height: 200px;
+    width: 70%;
+    background-color: #ffffff00;
+    display: none;
+}
+
+main>div.optionad>div.seasons>div.disseason {
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* align-content: space-around; */
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+
+}
+
+main>div.optionad>div.seasons>div.disseason>button.ep {
+    /* display: inline-block; */
+    height: 2.8vw;
+    /* min-height: 30px; */
+    width: 2.8vw;
+    /* min-width: 30px; */
+    /* font-size: 1vw; */
+    /* padding: 30px; */
+    background: #000;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+main>div.optionad>div.seasons>div.disseason>button.ep:hover {
+    background: #ff000898;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width : 1440px) {
+    header>a>h1 {
+        font-size: 45px;
+        margin: 1vw 0 0 20vw;
+    }
+
+    main>div.optionad>div.seasons {
+        margin: 11vw 4vw 0vw 4vw;
+        height: 200px;
+        width: 90%;
+    }
+
+    main>div.optionad>div.seasons>div.disseason>button.ep {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+    div.aboutcontent>div.detail {
+        position: relative;
+        left: 4vw;
+        top: 14vw;
+        font-size: 12px;
+    }
+
+    div.aboutcontent>p {
+        font-size: 12px;
+        left: 18vw;
+    }
+
+    /* body>div.aboutcontent>span.genre{
+        position: relative;
+        top: 4vw;
+        left:34.5vw ;
+    } */
+    div.aboutcontent>p.cast {
+        font-size: 12px;
+
+    }
+
+    div.contact {
+        height: 15vw;
+    }
+
+    main {
+        height: 115vw;
+    }
+
+    body>img.bgmain {
+        position: absolute;
+        height: 115vw;
+
+    }
+
+    main>div.videocontaner {
+
+        left: 5vw;
+    }
+
+    div.videocontaner>iframe {
+        width: 90vw;
+    }
+
+    main>div.optionad {
+        /* height: %; */
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width : 830px) {
+    div.contact {
+        height: 25vw;
+    }
+    main {
+        height: 115vw;
+    }
+
+    body>img.bgmain {
+        height: 115vw;
+
+    }
+
+}
+
+@media screen and (max-width : 768px) {
+
+    header>a>img {
+        height: 55px;
+    }
+
+    header>a>h1 {
+        font-size: 32px;
+        margin: 1vw 0 0 16vw;
+
+    }
+
+    .aboutcontent {
+        margin-top: -7.4vw;
+        position: relative;
+        z-index: 200;
+        height: 57.55vw;
+        width: 100%;
+        background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.418));
+    }
+
+    div.aboutcontent>h2 {
+        position: relative;
+        top: 13vw;
+        left: 40vw;
+        font-size: 20px;
+    }
+
+    body>div.aboutcontent>img {
+        position: relative;
+        top: 19vw;
+        left: 5vw;
+        height: 120px;
+        width: 85px;
+    }
+
+    div.aboutcontent>div.detail {
+        position: relative;
+        left: 70vw;
+        top: -10px;
+        width: 100px;
+        gap: 11px;
+    }
+
+    div.aboutcontent>h3 {
+        position: relative;
+        top: 0vw;
+        left: 47vw;
+        font-size: 14px;
+    }
+
+    div.aboutcontent>p {
+        width: 90%;
+        position: relative;
+        left: 5vw;
+        top: 8vw;
+
+    }
+
+    body>div.aboutcontent>span.genre {
+        font-size: 12px;
+        position: relative;
+        top: 11vw;
+        left: 20vw;
+    }
+
+    div.aboutcontent>p.cast {
+        position: relative;
+        top: 14vw;
+        left: 9vw;
+        font-size: 12px;
+        width: 80%;
+    }
+
+    div.contact {
+        height: 30vw;
+        width: 100%;
+        background: linear-gradient(to bottom, rgb(1, 1, 1), rgb(0, 0, 0));
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
+    div.contact>a>img {
+
+        background: transparent;
+        height: 5vw;
+        min-height: 25px;
+    }
+
+    body>main {
+        height: 130vw;
+
+    }
+
+    body>img.bgmain {
+        height: 130vw;
+
+    }
+
+    main>div.videocontaner {
+
+        left: 5vw;
+    }
+
+    div.videocontaner>iframe {
+        width: 90vw;
+    }
+
+    main>div.optionad {
+        /* height: 60.8%; */
+        width: 100%;
+    }
+
+    main>div.optionad>div.seasons {
+        margin: 13vw 4vw 3vw 4vw;
+        height: auto;
+        width: 90%;
+    }
+}
+@media screen and (max-width : 670px) {
+    div.contact {
+        height: 50vw;
+    }
+}
+@media screen and (max-width : 660px) {
+    body>main {
+        height: 135vw;
+    }
+    body>img.bgmain {
+        position: absolute;
+        height: 135vw;
+
+    }
+}
+@media screen and (max-width : 580px) {
+    div.contact {
+        height: 60vw;
+    }
+    body>main {
+        height: 150vw;
+    }
+    body>img.bgmain {
+        position: absolute;
+        height: 150vw;
+
+    }
+}
+@media screen and (max-width : 525px) {
+    div.contact {
+        height: 67vw;
+    }
+    body>main {
+        height: 160vw;
+    }
+    body>img.bgmain {
+        position: absolute;
+        height: 160vw;
+
+    }
+}
+@media screen and (max-width : 480px) {
+    div.contact {
+        height: 79vw;
+    }
+    body>main {
+        height: 170vw;
+    }
+    body>img.bgmain {
+        position: absolute;
+        height: 170vw;
+
+    }
+}
+@media screen and (max-width : 450px) {
+    div.contact {
+        height: 90vw;
+    }
+    body>main {
+        height: 190vw;
+    }
+    body>img.bgmain {
+        position: absolute;
+        height: 190vw;
+
+    }
+}
+@media screen and (max-width : 425px) {
+      body>img.st{
+        width: 100%;
+        /* height: 200px; */
+    }  
+    header>a>img {
+        height: 45px;
+    }
+
+    header>a>h1 {
+        font-size: 25px;
+        margin: 1vw 0 0 9vw;
+    }
+
+    /* body>img.st {
+        height: 40.77vw;
+    } */
+
+    .aboutcontent {
+        height: 56.77vw;
+        /* height: 200px; */
+    }
+
+    div.aboutcontent>h2 {
+        font-size: 16px;
+        top: 15vw;
+        left: 33vw;
+    }
+
+    body>div.aboutcontent>img {
+        top: 25vw;
+        left: 4vw;
+    }
+
+    div.aboutcontent>div.detail {
+        top: -33px;
+        left: 60vw;
+        gap: 7px;
+    }
+
+    div.contact {
+        height: 125vw;
+        
+    }
+    body>main {
+        height: 170vw;
+
+    }
+
+    body>img.bgmain {
+        height: 170vw;
+
+    } 
+
+}
+@media screen and (max-width : 380px) {
+    
+    div.contact {
+        height: 145vw;
+    } 
+    body>main {
+        height: 170vw;
+
+    }
+
+    body>img.bgmain {
+        height: 170vw;
+
+    } 
+}
+@media screen and (max-width : 350px) {
+    div.contact {
+        height: 175vw;
+    }
+    body>main {
+        height: 170vw;
+
+    }
+
+    body>img.bgmain {
+        height: 170vw;
+
+    } 
+} 
